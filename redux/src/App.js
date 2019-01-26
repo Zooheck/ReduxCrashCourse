@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Posts from './components/Posts'
-
+import PostForm from './components/PostForm'
 class App extends Component {
   render() {
     return (
@@ -22,6 +22,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <PostForm />
+        <hr />
         <Posts />
       </div>
     );
